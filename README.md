@@ -1,3 +1,12 @@
+# Install
+
+```
+sudo apt update
+sudo apt install python3.10-venv
+sudo apt install ninja-build
+sudo apt install clang-11
+```
+
 # Single CPU Core Matrix Multiplication Benchmarks
 
 This repository aims to benchmark Matrix Multiply (SGEMM) hand-tuned libraries and code generation stacks on a single thread on one CPU core. The focus will be on machine learning workloads so FP32 or smaller and irregular sizes of matrices. The goal is to expose high performance atomic kernels that can then be used to build highly efficient higher level implemenations spanning multiple cores or distributed across systems.
